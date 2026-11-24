@@ -1,0 +1,32 @@
+
+.banner {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--moves-space-md);
+  padding: var(--moves-space-md) var(--moves-space-lg);
+  border-radius: var(--moves-radius-md);
+}
+
+.banner--error {
+  background: var(--moves-color-status-error-bg);
+}
+
+.banner__text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--moves-space-2xs);
+  color: var(--moves-color-text-primary);
+}
+
+.banner__title {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.085px;
+}
+
+.banner__body {
+  font-size: 14px;
+  line-height: 20px;
+}

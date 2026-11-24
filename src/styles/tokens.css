@@ -4,7 +4,7 @@
   --moves-space-xs: 4px;
   --moves-space-md: 12px;
   --moves-size-touch-min: 44px;
-  
+
   --moves-color-bg-canvas: #ffffff;
   --moves-color-bg-surface: #f5f6f2;
   --moves-color-text-primary: #22272b;
@@ -12,6 +12,10 @@
   --moves-color-brand-logo-point: #6e8a12;
   --moves-color-border-focus: #202e48;
 
+    --moves-space-2xs: 2px;
+  --moves-space-lg: 16px;
+  --moves-radius-md: 12px;
+  
   --moves-color-action-primary-bg: #d7ed75;
   --moves-color-action-primary-bg-hover: #cfe66b;
   --moves-color-action-primary-bg-pressed: #c5dc5f;
