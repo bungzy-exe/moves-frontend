@@ -1,0 +1,22 @@
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--moves-size-touch-min);
+  height: var(--moves-size-touch-min);
+  padding: 0;
+  border: 0;
+  border-radius: var(--moves-radius-full);
+  background: transparent;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background: var(--moves-color-bg-surface);
+}
+
+.back-button:focus-visible {
+  outline: 2px solid var(--moves-color-border-focus);
+  outline-offset: 2px;
+}

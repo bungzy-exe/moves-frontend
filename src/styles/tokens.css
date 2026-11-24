@@ -1,4 +1,10 @@
 :root {
+
+      --moves-color-border-control: #878d85;
+  --moves-space-xs: 4px;
+  --moves-space-md: 12px;
+  --moves-size-touch-min: 44px;
+  
   --moves-color-bg-canvas: #ffffff;
   --moves-color-bg-surface: #f5f6f2;
   --moves-color-text-primary: #22272b;

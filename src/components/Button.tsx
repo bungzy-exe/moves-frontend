@@ -1,10 +1,11 @@
 import type { ReactNode } from 'react'
+import { Link } from 'react-router'
 import './Button.css'
 
 type ButtonProps = {
   children: ReactNode
   variant?: 'primary' | 'secondary' | 'neutral'
-  // With href, the button is a link to another screen.
+
   href?: string
   type?: 'button' | 'submit'
   disabled?: boolean
@@ -23,9 +24,9 @@ export default function Button({
 
   if (href) {
     return (
-      <a className={className} href={href}>
+      <Link className={className} to={href}>
         {children}
-      </a>
+      </Link>
     )
   }
 
