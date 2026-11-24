@@ -1,0 +1,37 @@
+:root {
+  --moves-color-bg-canvas: #ffffff;
+  --moves-color-bg-surface: #f5f6f2;
+  --moves-color-text-primary: #22272b;
+  --moves-color-text-secondary: #5c636b;
+  --moves-color-brand-logo-point: #6e8a12;
+  --moves-color-border-focus: #202e48;
+
+  --moves-color-action-primary-bg: #d7ed75;
+  --moves-color-action-primary-bg-hover: #cfe66b;
+  --moves-color-action-primary-bg-pressed: #c5dc5f;
+  --moves-color-action-primary-fg: #202e48;
+
+  --moves-color-action-secondary-bg: #ffffff;
+  --moves-color-action-secondary-bg-hover: #f3f5f8;
+  --moves-color-action-secondary-bg-pressed: #e4e9f2;
+  --moves-color-action-secondary-fg: #202e48;
+  --moves-color-action-secondary-border: #202e48;
+
+  --moves-color-action-neutral-bg: #202e48;
+  --moves-color-action-neutral-bg-hover: #2b3d5e;
+  --moves-color-action-neutral-bg-pressed: #18233a;
+  --moves-color-action-neutral-fg: #ffffff;
+
+  --moves-color-action-disabled-bg: #eceee8;
+  --moves-color-action-disabled-fg: #9ea39b;
+
+  --moves-color-status-error-fg: #c0392b;
+  --moves-color-status-error-bg: #f8e7e5;
+
+  --moves-space-sm: 8px;
+  --moves-space-2xl: 24px;
+  --moves-size-control-md: 48px;
+  --moves-radius-full: 999px;
+
+  --moves-font-family: 'Geist Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}

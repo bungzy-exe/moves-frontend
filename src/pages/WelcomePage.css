@@ -1,0 +1,42 @@
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  min-height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px 16px 32px;
+  background: var(--moves-color-bg-canvas);
+}
+
+
+.welcome__logo {
+  flex: 1;
+}
+
+.welcome__message {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.welcome__title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.8px;
+  color: var(--moves-color-text-primary);
+}
+
+.welcome__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--moves-color-text-secondary);
+}
+
+.welcome__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
